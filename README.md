@@ -34,7 +34,7 @@
 
 ## Notes
 
-- **pages** - Home (/) and `/dashboard` route shows the two pages.
+- **pages** - Home (/) and `/dashboard` route show the two pages.
 
 - **nextjs** - Although nextjs comes with lot of features but this project majorily focuses on the UI side of things because of which only routing and error handling feature has been leveraged.
 
@@ -46,4 +46,4 @@
 
 ## Additional Points
 
-- **Intentions** - Will be adding `server-side` code using `express` to fetch and post data in the datasource section to give this app a more fullstack context. Will add `unit` and `integration` tests using `rtl` with `user-event` to make code bug free and maintainable.
+- **Intentions** - Will be adding `server-side` code using `express` to fetch and post data in the datasource section to give this app a fullstack context. Will add `unit` and `integration` tests using `rtl` with `user-event` to make code bug free and maintainable.
