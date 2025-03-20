@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# zams-next-shadcn
 
-## Getting Started
+## Installation
 
-First, run the development server:
+1. **Clone the repository:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/YashasaveeKesarwani99/zams-next-shadcn.git
+   cd zams-next-shadcn
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   cd zams-next-shadcn
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+1. **Navigate to the `root` directory:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd zams-next-shadcn
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Start the React development server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run start
+   ```
 
-## Deploy on Vercel
+   This will run the next app on `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **pages** - Home (/) and `/dashboard` route shows the two pages.
+
+- **nextjs** - Although nextjs comes with lot of features but this project majorily focuses on the UI side of things because of which only routing and error handling feature has been leveraged.
+
+- **tailwind and shadcn** - components like `Dialog`, `Sidebar`, `Layout`, `Input`, `Textarea`, `Button` have been used. I've tried to customize the components using tailwind classes to meet the design implementation requirements.
+
+- **react-hook-form** - In order to add more rows in the datasource, I've used `Dialog` with `react-hook-form` to handle form interactions ( validating inputs, error handling, the submit action ).
+
+- **typescript** - To ensure type safety.
+
+## Additional Points
+
+- **Intentions** - Will be adding `server-side` code using `express` to fetch and post data in the datasource section to give this app a more fullstack context. Will add `unit` and `integration` tests using `rtl` with `user-event` to make code bug free and maintainable.
