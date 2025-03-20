@@ -49,7 +49,7 @@ export default function ZamsChat() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="text-muted-foreground gap-1"
+                    className="text-muted-foreground gap-1 text-[10px] sm:text-xs"
                   >
                     <svg
                       width="16"
@@ -81,7 +81,7 @@ export default function ZamsChat() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-muted-foreground gap-1"
+                className="text-muted-foreground gap-1 text-[10px] sm:text-xs"
               >
                 <Paperclip className="h-4 w-4 mr-1" />
                 Add Attachment
@@ -89,10 +89,10 @@ export default function ZamsChat() {
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="text-sm text-muted-foreground">
+              <span className="text-sm text-muted-foreground text-[10px] sm:text-xs">
                 {message.length}/1000
               </span>
-              <Button size="icon" className="rounded-full bg-black h-8 w-8">
+              <Button size="icon" className="rounded-full bg-black h-8 w-8 ">
                 <ArrowRight className="h-4 w-4" />
               </Button>
             </div>
