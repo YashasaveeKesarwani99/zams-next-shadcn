@@ -16,7 +16,7 @@ export default function ZamsChat() {
 
   return (
     <div className="w-full h-screen max-w-3xl mx-auto p-6 flex justify-center items-center">
-      <div className="h-full flex justify-center items-start flex-col w-full">
+      <div className="h-full flex  justify-start sm:justify-center items-start flex-col w-full">
         <div className="flex items-center mb-8">
           <Activity className="h-5 w-5 mr-2 text-black" />
           <span className="text-xl font-medium">zams</span>
@@ -43,7 +43,7 @@ export default function ZamsChat() {
           />
 
           <div className="flex flex-col items-end w-full gap-4 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2 sm:gap-4">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button
