@@ -85,7 +85,7 @@ const AddDataDialog = ({
         <DialogHeader>
           <DialogTitle>Add New Data</DialogTitle>
           <DialogDescription>
-            Fill out the details and click save when you're done.
+            Fill out the details and click save when youre done.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit(onSubmit)} className="grid gap-4 py-4">

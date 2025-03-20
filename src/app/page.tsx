@@ -100,7 +100,7 @@ export default function ZamsChat() {
         </div>
       </div>
       <div className="fixed bottom-5 text-xs text-gray-400 w-[90%] sm:w-auto">
-        Your chats aren't used to train our models. Obviously AI may make
+        Your chats aren&apos;t used to train our models. Obviously AI may make
         mistakes, so please double-check. Your privacy is our priority.
       </div>
     </div>
